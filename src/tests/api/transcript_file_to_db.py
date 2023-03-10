@@ -7,7 +7,7 @@ tr = ga.fetch_transcript_by_stable_id("ENSPLOT00000000003")
 
 tr.description = "this is a new description"
 
-url = 'mysql://ensadmin:ensembl@mysql-ens-core-prod-1.ebi.ac.uk:4524/panthera_leo_core_110_1'
+url = 'mysql://ensro@mysql-ens-core-prod-1.ebi.ac.uk:4524/panthera_leo_core_110_1'
 dbc = DBConnection(url)
 
 ta = TranscriptAdaptor(dbc)
